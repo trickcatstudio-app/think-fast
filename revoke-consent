@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Think Fast – Revoke Consent & Privacy</title>
+
+  <style>
+    :root {
+      --primary: #5b5cff;
+      --text: #1f2933;
+      --muted: #6b7280;
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --info: #eef2ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), #7c7cff);
+      color: #fff;
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 0.75rem;
+      font-size: 1.05rem;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 900px;
+      margin: -3rem auto 3rem;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background-color: var(--card);
+      border-radius: 14px;
+      padding: 2.2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 2.2rem;
+      font-size: 1.45rem;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    p {
+      margin: 0.75rem 0;
+    }
+
+    ul, ol {
+      margin: 1rem 0 1.5rem 1.25rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .notice {
+      background-color: var(--info);
+      border-left: 4px solid var(--primary);
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+    }
+
+    .contact {
+      background-color: #f3f4f6;
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      font-family: monospace;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.75rem;
+      }
+
+      .card {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Think Fast</h1>
+    <p>Revoke Consent & Manage Privacy</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <p>
+        This page explains how users can manage privacy preferences and revoke consent
+        for data usage in the <strong>Think Fast</strong> mobile game.
+      </p>
+
+      <h2>About Data Consent</h2>
+      <p>
+        Think Fast may display personalized advertisements and collect limited gameplay
+        data to improve the user experience. This may include:
+      </p>
+      <ul>
+        <li>Language and app preferences;</li>
+        <li>Game category selections;</li>
+        <li>Anonymous usage and interaction data;</li>
+        <li>Advertising identifiers (where permitted) for analytics and ad personalization.</li>
+      </ul>
+
+      <p>
+        You can revoke your consent at any time if you no longer want your data to be used
+        for advertising or analytics purposes.
+      </p>
+
+      <h2>What Happens When You Revoke Consent</h2>
+      <ul>
+        <li>Personalized ads are disabled (only non-personalized ads will be shown);</li>
+        <li>Analytics used for personalization and advertising are limited;</li>
+        <li>Previously collected advertising identifiers are no longer used for personalization;</li>
+        <li>You can continue playing Think Fast normally, with reduced personalization.</li>
+      </ul>
+
+      <h2>How to Revoke Your Consent</h2>
+      <p>
+        Privacy and consent options are managed <strong>exclusively inside the app</strong>.
+      </p>
+      <ol>
+        <li>Open the <strong>Think Fast</strong> app;</li>
+        <li>Go to the <strong>Profile</strong> page;</li>
+        <li>Open the <strong>Delete My Account</strong> section;</li>
+        <li>Review the privacy information shown on that screen;</li>
+        <li>Choose to revoke consent for ads and analytics.</li>
+      </ol>
+
+      <div class="notice">
+        <strong>Important:</strong> This website is informational only.
+        To revoke consent or manage privacy settings, you must use the options available
+        inside the Think Fast app under <strong>Profile → Delete My Account</strong>.
+      </div>
+
+      <h2>Regional Privacy Notices</h2>
+      <ul>
+        <li>
+          Users in the <strong>European Economic Area (EEA)</strong>, the
+          <strong>United Kingdom</strong>, or <strong>Switzerland</strong>
+          may see a GDPR consent form.
+        </li>
+        <li>
+          Users in the <strong>United States</strong> may see a state-level privacy prompt
+          (such as CCPA/CPRA).
+        </li>
+        <li>
+          In other regions, the app may continue without additional prompts.
+        </li>
+      </ul>
+
+      <h2>Need to Delete Your Account and Data?</h2>
+      <p>
+        Account deletion is permanent and removes your progress, scores, purchases,
+        preferences, and gameplay history from our servers.
+      </p>
+      <p>
+        Account deletion can be requested directly inside the app via the
+        <strong>Profile</strong> page.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        If you have questions about privacy, consent, or data usage, contact us at:
+      </p>
+      <div class="contact">
+        📧 trickcatstudio@gmail.com
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Think Fast – Mobile Game
+  </footer>
+</body>
+</html>
